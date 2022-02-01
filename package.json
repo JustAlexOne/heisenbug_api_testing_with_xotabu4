@@ -1,0 +1,29 @@
+{
+  "name": "heisenbug_api_testing_with_xotabu4",
+  "version": "1.0.0",
+  "description": "Api testing with TS project",
+  "scripts": {
+    "test": "mocha --require ts-node/register ./test/**/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustAlexOne/heisenbug_api_testing_with_xotabu4.git"
+  },
+  "author": "Oleksii Cherevatyi <alex.cherevatiy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JustAlexOne/heisenbug_api_testing_with_xotabu4/issues"
+  },
+  "homepage": "https://github.com/JustAlexOne/heisenbug_api_testing_with_xotabu4#readme",
+  "dependencies": {
+    "typescript": "^4.2.3",
+    "mocha": "^8.3.2",
+    "ts-node": "^9.1.1",
+    "got": "^11.8.2",
+    "chai": "^4.3.6",
+
+    "@types/mocha": "*",
+    "@types/node": "^14.14.37",
+    "@types/chai":"^4.3.0"
+  }
+}
